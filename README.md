@@ -31,7 +31,7 @@
 
 5) There is a bias in choosing technology stack towards open source components considering the limited resource availability for the assessment POC.
 
-6) Estimation approach is provided considering the agile software development methodology.   
+6) Estimation approach is provided considering the agile software development methodology and assuming a single team member taking all stakeholders point of view.    
 
 # Solution Approach
 
@@ -97,3 +97,19 @@ So its good to start with a relative estimate and try to make the estimate more 
 The estimate may evolve during the sprint because of newly identified technical constrain and inter-team dependencies. These change in estimate need to be captured in the daily scrum for stack holder communication and to mitigate the risks.
 
 High variance in the estimation during different stages is a good candidate for sprint retrospection at the end of the sprint.
+
+Considering the apove approach, please find the estimation for the assessment piece of work
+
+*Stage 1 - Part of the requirement(Bulk Data Upload) is new of its kind for me and hence quick research is done to come up with an estimate* 
+
+Item  | Effort in Hours
+------------ | -------------
+Effort looking at the initial logical solution view | 30
+
+
+*Stage 2 - The requirement is detailed to identify the exact list of items to be done to complete the task. This involves applying Engineering, Architecture, Security point of views to the solution approach* 
+
+Item  | Effort in Hours
+------------ | -------------
+Effort looking at the initial logical solution view | 30
+
