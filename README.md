@@ -104,12 +104,21 @@ Considering the apove approach, please find the estimation for the assessment pi
 
 Item  | Effort in Hours
 ------------ | -------------
-Effort looking at the initial logical solution view | 30
+Effort looking at the initial logical solution view | 35
 
 
 *Stage 2 - The requirement is detailed to identify the exact list of items to be done to complete the task. This involves applying Engineering, Architecture, Security point of views to the solution approach* 
 
-Item  | Effort in Hours
+Story Points  | Effort in Hours
 ------------ | -------------
-Effort looking at the initial logical solution view | 30
+Setup Free google assesment | 1
+Setup Kubernetes | 2
+Setup API GateWay and Loadbalancer | 8
+Setup Istio | 4
+Setup Prometheus | 2
+Develope Data Streaming server| 10
+Develope Data Streaming Client | 3
+Develope Business Logic Microservice | 4
+Apply all Security rules and test | 6
+
 
