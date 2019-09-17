@@ -31,22 +31,7 @@
 
 5) There is a bias in choosing technology stack towards open source components considering the limited resource availability for the assessment POC.
 
-6) Estimation approach is provided considering the agile software development methodology.  
-
-## Estimation Approach as a Team Lead 
-
-An obsolute estimate in the idel expectation for better release planning, but an relative estimate is more realistic because of the uncertain nature of software development with respect to the fact that the requirment / technical constrains evolve over time. 
-
-So its good to start with a relative estimate and try to make the estimate more obsolute during the journey. Consideing agile software development methodology estimation can be done in two different stages
-
-1)  Initial Use-case Level estimate - This can be done by sketching a quick logical view of the solution and then comparing the solution with similar/near-close piece of work. Involving people who have done near close/similar solution will add great value. These estimates will be of a relative in nature. In the case of "new of its kind" use-case, a quick study should be maid to come up with a ballpark estimate which assumption and can be shared with word of caution. 
-
-
-2) Sprint Planning and User Story level estimate - We should have converted the logical view of the solution into user stories and technical requirement before reaching this stage of estimation. Different stakeholders like product owner, architect, the engineering team can be involved as needed during this journey. During the sprint planning session story point, intimate can be done involving the development team members. This estimate is of more absolute than the previous level.
-
-The estimate may evolve during the sprint because of newly identified technical constrain and inter-team dependencies. These change in estimate need to be captured in the daily scrum for stack holder communication and to mitigate the risks.
-
-High variance in the estimation during different stages is a good candidate for sprint retrospection at the end of the sprint. 
+6) Estimation approach is provided considering the agile software development methodology.   
 
 # Solution Approach
 
@@ -98,3 +83,17 @@ Note: In the example developed for this assessment, I achieved authentication us
 ## Micro-service Ecosystem
 
 
+## Estimation Approach as a Team Lead 
+
+An obsolute estimate in the idel expectation for better release planning, but an relative estimate is more realistic because of the uncertain nature of software development with respect to the fact that the requirment / technical constrains evolve over time. 
+
+So its good to start with a relative estimate and try to make the estimate more obsolute during the journey. Consideing agile software development methodology estimation can be done in two different stages
+
+1)  Initial Use-case Level estimate - This can be done by sketching a quick logical view of the solution and then comparing the solution with similar/near-close piece of work. Involving people who have done near close/similar solution will add great value. These estimates will be more relative in nature. In the case of "new of its kind" use-case, a quick study should be maid to come up with a ballpark estimate with assumptions and can be shared with word of caution. 
+
+
+2) Sprint Planning and User Story level estimate - We should have converted the logical view of the solution into user stories and technical requirement before reaching this stage of estimation. Different stakeholders like product owner, architect, the engineering team can be involved as needed during this journey. During the sprint planning session story point, intimate can be done involving the development team members. This estimate is of more absolute than the previous level.
+
+The estimate may evolve during the sprint because of newly identified technical constrain and inter-team dependencies. These change in estimate need to be captured in the daily scrum for stack holder communication and to mitigate the risks.
+
+High variance in the estimation during different stages is a good candidate for sprint retrospection at the end of the sprint.
