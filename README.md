@@ -1,4 +1,4 @@
-# Network International Assesment
+# Network International Assessment
 
 ## Requirement in Short 
 
@@ -16,7 +16,7 @@
 5) Design the architecture to high performance and optimum memory usage
 
 
-## Quick Logical View of the requiement
+## Quick Logical View of the Requiement
 
 ![alt Logical Solution](https://i.ibb.co/52JM7q1/Screen-Shot-2019-09-17-at-9-18-17-PM.png)
 
@@ -38,20 +38,34 @@
 
 An obsolute estimate in the idel expectation for better release planning, but an relative estimate is more realistic because of the uncertain nature of software development with respect to the fact that the requirment / technical constrains evolve over time. 
 
-So its good to start with a relative estimate and try to make the estimate more obsolute during the journey. Consideing agile software development methodology estimation can be done in three different stages
+So its good to start with a relative estimate and try to make the estimate more obsolute during the journey. Consideing agile software development methodology estimation can be done in two different stages
 
-1) Inital Use-case Level estimate - This can be done by sketching a quick logical view of the solution and then compring the solution with similar/near close piece of work. Involving people who have done near close/similar solution to estimate will add a greate value. These estimates will be of relative in nature. In case of "new of its kind" usecase, a quck study should be maid to come up with a ballpark estimate which assumption and can be shared with word of causion. 
-
-
+1)  Initial Use-case Level estimate - This can be done by sketching a quick logical view of the solution and then comparing the solution with similar/near-close piece of work. Involving people who have done near close/similar solution will add great value. These estimates will be of a relative in nature. In the case of "new of its kind" use-case, a quick study should be maid to come up with a ballpark estimate which assumption and can be shared with word of caution. 
 
 
-To start 
-Its difficult to 
+2) Sprint Planning and User Story level estimate - We should have converted the logical view of the solution into user stories and technical requirement before reaching this stage of estimation. Different stakeholders like product owner, architect, the engineering team can be involved as needed during this journey. During the sprint planning session story point, intimate can be done involving the development team members. This estimate is of more absolute than the previous level.
+
+The estimate may evolve during the sprint because of newly identified technical constrain and inter-team dependencies. These change in estimate need to be captured in the daily scrum for stack holder communication and to mitigate the risks.
+
+High variance in the estimation during different stages is a good candidate for sprint retrospection at the end of the sprint. 
 
 
 # Solution Approach
 
+## Transmitting Large Data Sets Secure
 
+Transmitting large data sets secure over the wires has its one challenges. I am trying to capture as some of the important constraints here
+
+1) Network latency 
+2) Long-running connections and connection drop
+3) Otmimized data format for low data size 
+4) Blocked thread pool for a longer period 
+5) Uneven distribution load in the serverside data processing unit
+
+Considering the above fact and our microservice development environment, the following protocols are considered in technology selection
+
+
+![alt Logical Solution](https://nordicapis.com/wp-content/uploads/When-to-Use-What-REST-GraphQL-Webhooks-gRPC-1.png)
 
 
 
