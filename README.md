@@ -18,7 +18,7 @@
 
 # Quick Logical View of the requiement
 
-![alt Logical Solution](https://i.ibb.co/YdqhTDZ/Screen-Shot-2019-09-17-at-8-35-50-PM.png)
+![alt Logical Solution](https://i.ibb.co/52JM7q1/Screen-Shot-2019-09-17-at-9-18-17-PM.png)
 
 # Assumptions 
 
