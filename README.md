@@ -50,9 +50,9 @@ High variance in the estimation during different stages is a good candidate for 
 
 # Solution Approach
 
-## Transmitting Large Data Sets Secure
+## Transmitting Large Data Sets
 
-Transmitting large data sets secure over the wires has its one challenges. I am trying to capture as some of the important constraints here
+Transmitting large data sets over the wires has its one challenges. I am trying to capture as some of the important constraints here
 
 1) Network latency 
 2) Long-running connections and connection drop
@@ -64,7 +64,7 @@ Considering the above fact and our microservice development environment, the fol
 
 ![alt Logical Solution](https://nordicapis.com/wp-content/uploads/When-to-Use-What-REST-GraphQL-Webhooks-gRPC-1.png)
 
-1) We are choosing gRPC as networking solution among the considered options because of the following advantages for the given use-case over the other protocol 
+We are choosing gRPC as networking solution among the considered options because of the following advantages for the given use-case over the other protocol 
 
 1) gRPC is built on HTTP/2, which supports traditional Request/Response model and bidirectional streams. Streaming allows moving a large volume of data chunk by chunk.   
 
@@ -81,3 +81,20 @@ Considering the above fact and our microservice development environment, the fol
 The below picture attempt to make a representation of different gRPC client-server interaction  models
 
 ![alt Logical Solution](https://i0.wp.com/technokeeda.com/wp-content/uploads/2018/05/grpc_python.png?w=2000&ssl=1)
+
+
+## Transmitting Data Secure
+
+1) gRPC enables easy SSL usage to encript data in transit, with a unique pair of certificate for each server client pair.
+
+2) There are standerd token authentication filters available with renew ability in the standard gRPC pack. 
+
+3) Any custom authentication can be easily achieved by writing custom filters 
+
+4) There is support for passing metadata along with the request, this can be used for any custome authentication
+
+Note: In the example developed for this assessment, I achieved authentication using meta-data token. I did test SSL encryption in local but could not get it working in combination with API Gateway as it needs additional development work crossing the limits of the available timeline to submit the assessment. 
+
+## Micro-service Ecosystem
+
+
