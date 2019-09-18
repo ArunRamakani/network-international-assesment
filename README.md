@@ -120,5 +120,4 @@ Develope Data Streaming server| 10
 Develope Data Streaming Client | 3
 Develope Business Logic Microservice | 4
 Apply all Security rules and test | 6
-
-
+Documentation | 4
