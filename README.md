@@ -133,6 +133,17 @@ Kubernetes is a deployment and orchestration framework for containerized applica
 
 ![alt landscape](https://res.infoq.com/articles/tips-running-scalable-workloads-kubernetes/en/resources/14Picture1-1522358213592.jpg)
 
+# The Code 
+
+How do we deploy each deployment component is covered in the respective GitHub repo location as given below. 
+
+Deployment  | Reference Location
+------------ | -------------
+Stream Server | [Link](https://github.com/ArunRamakani/StreamServer)
+Stream Client | [Link](https://github.com/ArunRamakani/StreamClient
+Data Processing Business logic unit | [Link](https://github.com/ArunRamakani/StreamBLU)
+
+
 ## Estimation Approach as a Team Lead 
 
 An obsolute estimate in the idel expectation for better release planning, but an relative estimate is more realistic because of the uncertain nature of software development with respect to the fact that the requirment / technical constrains evolve over time. 
