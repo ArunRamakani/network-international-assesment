@@ -101,6 +101,11 @@ Stackdriver | Monitoring & Logging
 
 Trade-off considered during the above tech stack selection needs further more detailed documentation. Same can be discussed during the interview if required
 
+## Solution Components and Deployment
+
+Considering the above microservice stack and initial logical use-case view below will the overall solution will look like the below diagram
+
+
 ## Estimation Approach as a Team Lead 
 
 An obsolute estimate in the idel expectation for better release planning, but an relative estimate is more realistic because of the uncertain nature of software development with respect to the fact that the requirment / technical constrains evolve over time. 
