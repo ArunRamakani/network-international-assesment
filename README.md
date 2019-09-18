@@ -95,10 +95,9 @@ Google Kubernete Engine | Managed Kubernete for container Orchestration
 Ambassador | API gateway 
 Ambassador | Load Balancer
 Istio | Connect, Secure, Control and Observe  microservices
-Prometheus | Monitoring
-Fluentd | Logging
+Stackdriver | Monitoring & Logging
 
-![alt landscape](https://i.ibb.co/X82S1rz/Screen-Shot-2019-09-18-at-8-57-18-AM.png)
+![alt landscape](https://i.ibb.co/r0XvW4C/Screen-Shot-2019-09-18-at-1-39-33-PM.png)
 
 Trade-off considered during the above tech stack selection needs further more detailed documentation. Same can be discussed during the interview if required
 
