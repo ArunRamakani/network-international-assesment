@@ -47,7 +47,7 @@ Transmitting large data sets over the wires has its one challenges. I am trying 
 
 Considering the above fact and our microservice development environment, the following protocols are considered in technology selection
 
-![alt Logical Solution](https://nordicapis.com/wp-content/uploads/When-to-Use-What-REST-GraphQL-Webhooks-gRPC-1.png)
+![alt Logical Solution](https://i.ibb.co/wdm4CJ9/Screen-Shot-2019-09-18-at-4-16-47-PM.png)
 
 We are choosing gRPC as networking solution among the considered options because of the following advantages for the given use-case over the other protocol 
 
@@ -107,7 +107,7 @@ Considering the above microservice stack and initial logical use-case view the o
 
 ![alt landscape](https://i.ibb.co/DgPx8hv/Screen-Shot-2019-09-18-at-2-49-27-PM.png)
 
-Technology Choice 
+## Technology Choice 
 
 Technology  | Comment
 ------------ | -------------
@@ -129,7 +129,9 @@ gRPC is a high-performance, lightweight communication framework which uses HTTP/
 
 __Kubernetes Scalability and Performance__ 
 
-Kubernetes is a deployment and orchestration framework for containerized applications. Given a farm of computing resources, Kubernetes allocates resources to containers and performs replication, scaling, failover, and other management tasks necessary to run enterprise applications reliably with efficient resource utilization. Kubernetes offers lots of tools to help make applications scalable and fault-tolerant. Setting resource requests for pods, Use affinities to spread your apps across nodes and availability zones, Add pod disruption budgets to allow cluster administrators to maintain clusters without breaking your apps, Using autoscaling of pods to scale as demand increases are some of the techniques to achieve scalability and performance.
+Kubernetes is a deployment and orchestration framework for containerized applications. Given a farm of computing resources, Kubernetes allocates resources to containers and performs replication, scaling, failover, and other management tasks necessary to run enterprise applications reliably with efficient resource utilization. Kubernetes offers lots of tools to help make applications scalable and fault-tolerant. Setting resource requests for pods, Use affinities to spread your apps across nodes and availability zones, Add pod disruption budgets to allow cluster administrators to maintain clusters without breaking your apps, Using autoscaling of pods to scale as demand increases are some of the techniques to achieve scalability and performance. Kubernetes deployment unit POD comes with following features by default
+
+![alt landscape](https://res.infoq.com/articles/tips-running-scalable-workloads-kubernetes/en/resources/14Picture1-1522358213592.jpg)
 
 ## Estimation Approach as a Team Lead 
 
