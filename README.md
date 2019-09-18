@@ -140,7 +140,7 @@ How do we deploy each deployment component is covered in the respective GitHub r
 Deployment  | Reference Location
 ------------ | -------------
 Stream Server | [Link](https://github.com/ArunRamakani/StreamServer)
-Stream Client | [Link](https://github.com/ArunRamakani/StreamClient
+Stream Client | [Link](https://github.com/ArunRamakani/StreamClient)
 Data Processing Business logic unit | [Link](https://github.com/ArunRamakani/StreamBLU)
 
 
