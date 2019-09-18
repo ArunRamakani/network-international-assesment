@@ -107,6 +107,21 @@ Considering the above microservice stack and initial logical use-case view the o
 
 ![alt landscape](https://i.ibb.co/DgPx8hv/Screen-Shot-2019-09-18-at-2-49-27-PM.png)
 
+Technology Choice 
+
+Technology  | Comment
+------------ | -------------
+gRPC | Best cloud native protocal for the given usecase. RSocket is another which could protentially be used as alternative to gRPC. 
+Pyton | gRPC development is quick in Pyton. We used Pyton for striming client and server
+NodeJs | gRPC is also simple and easy to develope in NodeJs. We used NodeJs for business logic unit
+Docker | The best way to package a microservice application
+Kubernetes | CNCF recogonize Kubernetes as the best container orchestration platform
+Ambassador | Kubernetes native API gateway supporting gRPC messaging 
+MySQL DB | Since the data processed is relational in nature, MySQL is the simplest, and can be scaled as needed
+Istio |  Start of the art servish mesh recommended by CNCF and comes default with GKE k8s cluster provisining 
+StackDriver| Native to google cloud environment and easy to configure and debug
+
+
 ## Estimation Approach as a Team Lead 
 
 An obsolute estimate in the idel expectation for better release planning, but an relative estimate is more realistic because of the uncertain nature of software development with respect to the fact that the requirment / technical constrains evolve over time. 
@@ -139,7 +154,6 @@ Setup Free google assesment | 1
 Setup Kubernetes | 2
 Setup API GateWay and Loadbalancer | 8
 Setup Istio | 4
-Setup Prometheus | 2
 Develope Data Streaming server| 10
 Develope Data Streaming Client | 3
 Develope Business Logic Microservice | 4
