@@ -92,15 +92,10 @@ We have choosen the below tech stack to implement the usecase. Detailed informat
 Tech Stack  | Usage
 ------------ | -------------
 Google Kubernete Engine | Managed Kubernete for container Orchestration 
-
 Ambassador | API gateway 
-
 Ambassador | Load Balancer
-
 Istio | Connect, Secure, Control and Observe  microservices
-
 Prometheus | Monitoring
-
 Fluentd | Logging
 
 ![alt landscape](https://i.ibb.co/X82S1rz/Screen-Shot-2019-09-18-at-8-57-18-AM.png)
