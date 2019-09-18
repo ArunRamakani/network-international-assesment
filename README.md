@@ -97,14 +97,15 @@ Ambassador | Load Balancer
 Istio | Connect, Secure, Control and Observe  microservices
 Stackdriver | Monitoring & Logging
 
-![alt landscape](https://i.ibb.co/r0XvW4C/Screen-Shot-2019-09-18-at-1-39-33-PM.png)
+![alt landscape](https://i.ibb.co/6vpnpJ8/Screen-Shot-2019-09-18-at-2-50-31-PM.png)
 
 Trade-off considered during the above tech stack selection needs further more detailed documentation. Same can be discussed during the interview if required
 
 ## Solution Components and Deployment
 
-Considering the above microservice stack and initial logical use-case view below will the overall solution will look like the below diagram
+Considering the above microservice stack and initial logical use-case view the overall solution will look like the below diagram
 
+![alt landscape](https://i.ibb.co/DgPx8hv/Screen-Shot-2019-09-18-at-2-49-27-PM.png)
 
 ## Estimation Approach as a Team Lead 
 
