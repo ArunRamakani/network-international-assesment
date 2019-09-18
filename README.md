@@ -87,6 +87,22 @@ One of the important parts of the requirement is to set up a micro-services envi
 > CNCF Trial map and landscape were referred to chose technology stack [Link](https://github.com/cncf/landscape).
 >  Free google cloud credits available for assessment is another major influence in the choice of technology 
 
+We have choosen the below tech stack to implement the usecase. Detailed information on how this environment set up is done is covered in one of my anothere another github repository [Link](https://github.com/ArunRamakani/provision-kubernetes-gke).
+
+Google Kubernete Engine - Managed Kubernete for container Orchestration 
+
+Ambassador - API gateway 
+
+Ambassador - Load Balancer
+
+Istio - Connect, Secure, Control and Observe  microservices
+
+Prometheus - Monitoring
+
+Fluentd - Logging
+
+![alt landscape](https://i.ibb.co/SdQcLBT/Screen-Shot-2019-09-17-at-5-38-57-PM.png)
+
 
 ## Estimation Approach as a Team Lead 
 
