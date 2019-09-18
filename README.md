@@ -112,14 +112,14 @@ Technology Choice
 Technology  | Comment
 ------------ | -------------
 gRPC | Best cloud native protocal for the given usecase. RSocket is another which could protentially be used as alternative to gRPC. 
-Pyton | gRPC development is quick in Pyton. We used Pyton for striming client and server
-NodeJs | gRPC is also simple and easy to develope in NodeJs. We used NodeJs for business logic unit
-Docker | The best way to package a microservice application
+Pyton | gRPC development is quick in Pyton. We used Pyton for streming client and server
+NodeJs | gRPC is also simple and easy to develope in NodeJs. We used NodeJs for business logic. This enabled polyglot development environment
+Docker | The best way to package a microservice applications into container
 Kubernetes | CNCF recogonize Kubernetes as the best container orchestration platform
 Ambassador | Kubernetes native API gateway supporting gRPC messaging 
 MySQL DB | Since the data processed is relational in nature, MySQL is the simplest, and can be scaled as needed
 Istio |  Start of the art servish mesh recommended by CNCF and comes default with GKE k8s cluster provisining 
-StackDriver| Native to google cloud environment and easy to configure and debug
+StackDriver| Native to google cloud environment and easy to configure and fits the porpose
 
 
 ## Estimation Approach as a Team Lead 
