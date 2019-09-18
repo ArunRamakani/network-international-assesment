@@ -63,9 +63,9 @@ We are choosing gRPC as networking solution among the considered options because
 
 6) gRPC is extremely fast when compared to other protocol considered and enables reactive programming / efficient thread pool usage. 
 
-The below picture attempt to make a representation of different gRPC client-server interaction  models
+The below picture attempt to make a representation of gRPC client-server interaction models
 
-![alt Logical Solution](https://i0.wp.com/technokeeda.com/wp-content/uploads/2018/05/grpc_python.png?w=2000&ssl=1)
+![alt Logical Solution](https://cdn.thenewstack.io/media/2018/11/619f6246-picture1.png)
 
 
 ## Transmitting Data Secure
