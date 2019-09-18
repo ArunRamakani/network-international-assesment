@@ -84,10 +84,10 @@ Note: In the example developed for this assessment, I achieved authentication us
 
 One of the important parts of the requirement is to set up a micro-services environment with service discovery, config management, API gateway, fault-tolerance, log tracing. 
 
-> CNCF Trial map and landscape were referred to chose technology stack [Link](https://github.com/cncf/landscape).
->  Free google cloud credits available for assessment is another major influence in the choice of technology 
+1)CNCF Trial map and landscape were referred to chose technology stack [Link](https://github.com/cncf/landscape).
+2)Free google cloud credits available for assessment is another major influence in the choice of technology 
 
-We have choosen the below tech stack to implement the usecase. Detailed information on how this environment set up is done is covered in one of my anothere another github repository [Link](https://github.com/ArunRamakani/provision-kubernetes-gke).
+>We have choosen the below tech stack to implement the usecase. Detailed information on how this environment set up is done is covered in one of my anothere another github repository [Link](https://github.com/ArunRamakani/provision-kubernetes-gke).
 
 Tech Stack  | Usage
 ------------ | -------------
@@ -100,6 +100,7 @@ Fluentd | Logging
 
 ![alt landscape](https://i.ibb.co/X82S1rz/Screen-Shot-2019-09-18-at-8-57-18-AM.png)
 
+Trade-off considered during the above tech stack selection needs further more detailed documentation. Same can be discussed during the interview if required
 
 ## Estimation Approach as a Team Lead 
 
@@ -107,7 +108,7 @@ An obsolute estimate in the idel expectation for better release planning, but an
 
 So its good to start with a relative estimate and try to make the estimate more obsolute during the journey. Consideing agile software development methodology estimation can be done in two different stages
 
-1)  Initial Use-case Level estimate - This can be done by sketching a quick logical view of the solution and then comparing the solution with similar/near-close piece of work. Involving people who have done near close/similar solution will add great value. These estimates will be more relative in nature. In the case of "new of its kind" use-case, a quick study should be maid to come up with a ballpark estimate with assumptions and can be shared with word of caution. 
+1) Initial Use-case Level estimate - This can be done by sketching a quick logical view of the solution and then comparing the solution with similar/near-close piece of work. Involving people who have done near close/similar solution will add great value. These estimates will be more relative in nature. In the case of "new of its kind" use-case, a quick study should be maid to come up with a ballpark estimate with assumptions and can be shared with word of caution. 
 
 
 2) Sprint Planning and User Story level estimate - We should have converted the logical view of the solution into user stories and technical requirement before reaching this stage of estimation. Different stakeholders like product owner, architect, the engineering team can be involved as needed during this journey. During the sprint planning session story point, intimate can be done involving the development team members. This estimate is of more absolute than the previous level.
