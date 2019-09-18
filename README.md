@@ -82,6 +82,11 @@ Note: In the example developed for this assessment, I achieved authentication us
 
 ## Micro-service Ecosystem
 
+One of the important parts of the requirement is to set up a micro-services environment with service discovery, config management, API gateway, fault-tolerance, log tracing. 
+
+> CNCF Trial map and landscape were referred to chose technology stack [Link](https://github.com/cncf/landscape)
+> Free google cloud credits available for assessment is another major influence in the choice of technology 
+
 
 ## Estimation Approach as a Team Lead 
 
