@@ -137,7 +137,7 @@ Kubernetes is a deployment and orchestration framework for containerized applica
 
 How do we deploy each deployment component is covered in the respective GitHub repo location as given below. 
 
-Deployment  | Reference Location
+Deployment  | Github Repo
 ------------ | -------------
 Stream Server | [Link](https://github.com/ArunRamakani/StreamServer)
 Stream Client | [Link](https://github.com/ArunRamakani/StreamClient)
