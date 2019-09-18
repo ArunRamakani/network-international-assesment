@@ -121,6 +121,15 @@ MySQL DB | Since the data processed is relational in nature, MySQL is the simple
 Istio |  Start of the art servish mesh recommended by CNCF and comes default with GKE k8s cluster provisining 
 StackDriver| Native to google cloud environment and easy to configure and fits the porpose
 
+## Scalability Performance
+
+__Protocal Scalability and performance__ 
+
+gRPC is a high-performance, lightweight communication framework which uses HTTP/2, the latest network transport protocol. It's primarily designed for low latency and multiplexing requests over a single TCP connection using streams. This makes gRPC amazingly fast and scalable compared to REST over HTTP/1.1. 
+
+__Kubernetes Scalability and Performance__ 
+
+Kubernetes is a deployment and orchestration framework for containerized applications. Given a farm of computing resources, Kubernetes allocates resources to containers and performs replication, scaling, failover, and other management tasks necessary to run enterprise applications reliably with efficient resource utilization. Kubernetes offers lots of tools to help make applications scalable and fault-tolerant. Setting resource requests for pods, Use affinities to spread your apps across nodes and availability zones, Add pod disruption budgets to allow cluster administrators to maintain clusters without breaking your apps, Using autoscaling of pods to scale as demand increases are some of the techniques to achieve scalability and performance.
 
 ## Estimation Approach as a Team Lead 
 
