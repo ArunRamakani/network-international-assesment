@@ -67,7 +67,11 @@ The below picture attempt to make a representation of gRPC client-server interac
 
 ![alt Logical Solution](https://cdn.thenewstack.io/media/2018/11/619f6246-picture1.png)
 
+Also we compress the data to the highest extent 
 
+>chan_ops = [('grpc.default_compression_algorithm', CompressionAlgorithm.gzip),
+            ('grpc.grpc.default_compression_level', CompressionLevel.high)]
+            
 ## Transmitting Data Secure
 
 1) gRPC enables easy SSL usage to encript data in transit, with a unique pair of certificate for each server client pair.
