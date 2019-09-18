@@ -157,6 +157,5 @@ Setup Istio | 4
 Develope Data Streaming server| 10
 Develope Data Streaming Client | 3
 Develope Business Logic Microservice | 4
-Apply all Security rules and test | 6
-Unit Testing | 2
-Documentation | 4
+Testing | 4
+Documentation | 6
