@@ -153,8 +153,8 @@ Image below represents state of all pods and services up and running
 
 Now its time to execute and see the output. Execute the below docker client to see the outputs
 
-1) docker pull arunramakani/stream-client
-2) docker run -e server=34.69.90.135:80 arunramakani/stream-client
+>1) docker pull arunramakani/stream-client
+>2) docker run -e server=34.69.90.135:80 arunramakani/stream-client
 
 ![alt output](https://i.imgur.com/iue2cuo.png)
 ![alt output](https://i.imgur.com/ZRNwyju.png)
