@@ -147,6 +147,9 @@ Stream Server | [Link](https://github.com/ArunRamakani/StreamServer)
 Stream Client | [Link](https://github.com/ArunRamakani/StreamClient)
 Data Processing Business logic unit | [Link](https://github.com/ArunRamakani/StreamBLU)
 
+Image below represents state of all pods and services up and running
+
+![alt output](https://i.imgur.com/kLik0Kg.png)
 
 ## Estimation Approach as a Team Lead 
 
